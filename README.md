@@ -1,19 +1,7 @@
 # LLM-Learning
-This guide will help you create a simple but powerful API using FastAPI that leverages Large Language Models (LLMs) to help troubleshoot problems. 
+This guide will help you create a simple but powerful API using FastAPI that leverages Large Language Models (LLMs) to help troubleshoot problems. The API will accept problem descriptions and return AI-generated solutions.
 
-The API will accept problem descriptions and return AI-generated solutions.
+<img width="3840" height="2263" alt="Untitled diagram _ Mermaid Chart-2025-09-25-170419" src="https://github.com/user-attachments/assets/9a73d768-3e8f-4132-aa69-57a5f8c8528d" />
 
-┌─────────────────┐    HTTP Request    ┌─────────────────┐
-│                 │ ──────────────────► │                 │
-│   Client/User   │                     │   FastAPI App   │
-│                 │ ◄────────────────── │                 │
-└─────────────────┘    JSON Response   └─────────────────┘
-                                                │
-                                                │ API Call
-                                                ▼
-                                        ┌─────────────────┐
-                                        │                 │
-                                        │   LLM Service   │
-                                        │  (OpenAI/etc)   │
-                                        │                 │
-                                        └─────────────────┘
+
+                                        
